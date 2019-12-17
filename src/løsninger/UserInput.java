@@ -14,9 +14,10 @@ public class UserInput {
     
     public int prisPåPizza(int antal) {
         //den int vi returnere kalder vi pris og sætter til at være lig med antal gange 70
-        int pris = antal * 70;
+        int pris = 69;
+        int endeligPris = pris * antal;
         //nu returnere metoden pris
-        return pris;
+        return endeligPris;
     }
     
 }

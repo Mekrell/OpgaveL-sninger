@@ -20,11 +20,13 @@ public class Løsninger {
         //fjern // for at køre opgave 1 eller 2
         //Opgave1();
         //Opgave2();
+        Løsninger løs = new Løsninger();
+        løs.Opgave1();
         
         
     }
     //static pga. vi ikke skal bruge flere "Opgave1" objekter
-    public static void Opgave1() {
+    public void Opgave1() {
         // Lav en scanner
         Scanner in = new Scanner(System.in);
         //lav en variable der tager det næste int input

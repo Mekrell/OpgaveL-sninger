@@ -17,88 +17,6 @@ public class exceptions {
      * @throws IllegalArgumentException
      */
     public void testSætning(int tal) throws IllegalArgumentException {
-        int test = 0;
-        switch(tal) {
-            
-        case 1:
-            test = 1;
-            break;    
-        default:
-            throw new IllegalArgumentException();
-        }
-        
-        System.out.println(test);
-    }
-    //løsning findes på linje 100
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    //Løsning 
-    public void testSætningLøsning(int tal) throws IllegalArgumentException {
         try {
         int test = 0;
         switch(tal) {
@@ -116,4 +34,5 @@ public class exceptions {
             System.out.println("forkert tal");
         }
     }
+    
 }
